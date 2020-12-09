@@ -1,5 +1,7 @@
 /* UTILITIES */
-
+html{
+  scroll-behavior: smooth;
+}
 body {
     margin: 0;
     color: #444;
@@ -165,6 +167,9 @@ h3 {
 @media (max-width:575px){
   #works .right-arrow{
     visibility: hidden;
+  }
+  #works .card{
+    width: 80% !important;
   }
 }
 @media (min-width:576px){
