@@ -142,6 +142,7 @@ h3 {
 /* HOW IT WORKS */
 #works .card{
   border: 0px;
+  width: 28%;
 }
 #works img{
   border: 2px solid black;
@@ -169,7 +170,7 @@ h3 {
     visibility: hidden;
   }
   #works .card{
-    width: 80% !important;
+    width: 80%;
   }
 }
 @media (min-width:576px){
