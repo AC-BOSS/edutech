@@ -124,10 +124,14 @@ h3 {
 #numbers .card{
   border-radius: 0px 30px 30px 0px;
 }
-.card-text{
+#numbers .card-text{
   font-size: 0.7rem;
 }
-
+@media (max-width:575px){
+  #numbers .card-text{
+    font-size: 1rem;
+  }
+}
 /* SOLVE YOUR DOUBTS */
 #middle{
   background: #f3f5f5;
